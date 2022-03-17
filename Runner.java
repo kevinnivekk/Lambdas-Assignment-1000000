@@ -1,5 +1,6 @@
 import java.lang.Math;
-
+// 1. I learned how to use lambda expressions to implement interfaces
+// 2. I learned how to use GitKraken
 interface BooleanPart
 {
 	public boolean BooleanPart(int n);
