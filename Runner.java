@@ -7,6 +7,9 @@ interface BooleanPart
 
 public class Runner{
 	public static void main(String[]args){
+
+		//I learned that Math.sqrt can easily find whether a number is a perfect square.
+		//I learned how to collaborate with others!
 		BooleanPart booleanLambdas = (int n) -> { return (Math.sqrt(n) % 1 == 0); };
 		System.out.println(booleanLambdas.BooleanPart(26));
 		QuotientPrint test = new QuotientPrint();
