@@ -1,5 +1,14 @@
+import java.lang.Math;
+
+interface BooleanPart
+{
+	public boolean BooleanPart(int n);
+}
+
 public class Runner{
 	public static void main(String[]args){
+		BooleanPart booleanLambdas = (int n) -> { return (Math.sqrt(n) % 1 == 0); };
+		System.out.println(booleanLambdas.BooleanPart(26));
 		QuotientPrint test = new QuotientPrint();
 		Print_Quotient asdf = (float a, float b) -> System.out.printf("%s\n", Math.round(1000*a/b)/1000f);
 
